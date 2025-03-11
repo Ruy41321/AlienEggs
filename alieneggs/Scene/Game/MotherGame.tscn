@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://byibekw73sx8c"]
+
+[ext_resource type="Script" uid="uid://b3kyfnppp0up0" path="res://Script/Game/mother_game.gd" id="1_7pass"]
+[ext_resource type="PackedScene" uid="uid://bbqbnh0v1wgrq" path="res://Scene/UI/MainUI.tscn" id="2_50xde"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_7pass")
+
+[node name="AmbientLoop" type="AudioStreamPlayer" parent="."]
+autoplay = true
+
+[node name="MainUi" parent="." instance=ExtResource("2_50xde")]
+
+[node name="VisibilityTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="timeout" from="VisibilityTimer" to="." method="_on_visibility_timer_timeout"]
