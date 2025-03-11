@@ -2,12 +2,14 @@
 
 Welcome to **Alien Eggs**, our submission for the **Spaghetti Studio Game Jam**! 🎮🐣 
 
+![](extra/execution.gif)
+
 ## 🏆 Game Jam Theme
 This first version of the game comes right at the end of the **Spaghetti Studio Game Jam**, where the theme was:  
 **"Better an egg today than a chicken tomorrow."**
 
 ## 🛸 Game Concept
-In **Egg Escape**, you are trapped on a spaceship, isolated and vulnerable, with a dangerous alien creature on board.
+In **Alien Eggs**, you are trapped on a spaceship, isolated and vulnerable, with a dangerous alien creature on board.
 The creature has laid numerous eggs across the ship, and your mission is to **destroy them all** before the alien mother catches you.
 Time is running out, and survival depends on your wits and tools.
 
@@ -18,7 +20,7 @@ The sounds will play a major role in the orientation and advise us if the MOTHER
 Here's how it works:
 
 - 🗺️ **Radar**: Your main navigation tool. The radar helps you locate the eggs and detect the alien mother's proximity.  
-- 🔋 **Battery**: Provides hope and a chance to illuminate walls for a brief moment, revealing the immediate surroundings.  
+- 🔋 **Bombs**: Provides hope and a chance to temporarily Stun the surrounding enemies.  
 - 💻 **Terminal Console**: A simple console offering vital information. It keeps track of how many eggs remain and provides
 		crucial updates during your mission.
 
@@ -29,8 +31,13 @@ Everything is designed to keep you focused, on edge, and constantly aware of the
 This is just the beginning of **Alien Eggs**, and we hope you enjoy playing it as much as we enjoyed making it.
 Good luck, and remember: **better an egg today than a chicken tomorrow**!
 
-This game was made by:
-Claudio Rea (https://github.com/Nihilantropy)
-Luigi Pennisi (https://github.com/Ruy41321)
-Matteo Camilli (https://github.com/ippatteo)
-Eugenio Caruso (https://github.com/ecaruso42)
+This game was made by:  
+Mechanics:  
+	- Claudio Rea (https://github.com/Nihilantropy)  
+	- Luigi Pennisi (https://github.com/Ruy41321)  
+   
+Executive:  
+	- Matteo Camilli (https://github.com/ippatteo)  
+   
+ Artist:  
+	- Eugenio Caruso (https://github.com/ecaruso42)
